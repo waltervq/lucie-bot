@@ -1,0 +1,27 @@
+{
+  "name": "psycho-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp Psycho-Bot avec QR sur page HTML",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.18",
+    "chalk": "^4.1.2",
+    "express": "^5.1.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "pino": "^9.9.0",
+    "qrcode": "^1.5.1",
+    "qrcode-terminal": "^0.12.0",
+    "sqlite3": "^5.1.7",
+    "unzipper": "^0.10.14",
+    "youtube-sr": "^4.3.12",
+    "yt-dlp-exec": "^1.0.2"
+  }
+}
