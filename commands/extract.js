@@ -74,7 +74,7 @@ module.exports = {
 
             // --- Préparer l'objet d'envoi ---
             let sendObj;
-            if (mediaType === 'image') sendObj = { image: { url: tempPath }, caption: "📸 Média extrait avec Lucie Bot : )" };
+            if (mediaType === 'image') sendObj = { image: { url: tempPath }, caption: "📸 Média extrait avec le programme Vainq : )" };
             else if (mediaType === 'video') sendObj = { video: { url: tempPath }, caption: "🎬 Média extrait Lucie Bot : )" };
             else if (mediaType === 'audio') sendObj = { audio: { url: tempPath }, mimetype: mime || 'audio/ogg' };
             else sendObj = { document: { url: tempPath }, mimetype: mime, fileName: `document.${ext}` };

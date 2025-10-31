@@ -1,10 +1,11 @@
 {
-  "name": "psycho-bot",
+  "name": "Lucie-bot",
   "version": "1.0.0",
-  "description": "Bot WhatsApp Psycho-Bot avec QR sur page HTML",
+  "description": "Bot WhatsApp Luce-Bot avec QR sur page HTML",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "postinstall": "npm rebuild sqlite3 --build-from-source"
   },
   "engines": {
     "node": ">=18"
